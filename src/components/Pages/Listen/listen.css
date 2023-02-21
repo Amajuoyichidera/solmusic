@@ -1,0 +1,48 @@
+.sec1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    gap: 90px;
+    padding-bottom: 100px;
+  background-color: #0A183D;
+
+}
+p {
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+span {
+    color: #FC0254;
+}
+h1 {
+    font-size: 75px;
+    color: white;
+    font-weight: 700;
+    line-height: 60px;
+    padding-bottom: 20px;
+
+}
+.one {
+    margin-top: 80px;
+}
+.btn {
+    display: flex;
+    gap: 20px;
+}
+.btn button {
+    padding: 22px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+button:first-child {
+    background-color: #FC0254;
+    color: white;
+}
+button:last-child {
+    background-color: #383B70;
+    color: white;
+}

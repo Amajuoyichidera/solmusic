@@ -1,0 +1,26 @@
+.sec {
+    display: flex;
+    margin-top: 100px;
+    background-color: white;
+    justify-content: center;
+    gap: 60px;
+    padding-bottom: 50px;
+}
+.sec h1 {
+    color: #0A183D;
+    font-size: 63px;
+    line-height: 60px;
+    font-weight: 600;
+}
+.sec p {
+    color: #827080;
+}
+.sec button {
+    padding: 22px;
+    width: 180px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    background-color: #FC0254;
+    color: white;
+}
