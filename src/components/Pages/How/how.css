@@ -1,0 +1,44 @@
+.how {
+    background: url(../../assets/howbg.jpg);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-size: cover;
+}
+.how h1 {
+    font-size: 65px;
+    font-weight: 600;
+    margin-left: 80px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.create {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+figure span {
+    background-color: #FC0254;
+    border-radius: 50%;
+    padding: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+figure {
+    display: flex;
+}
+.brain {
+    margin-left: -25px;
+    height: 6vh;
+    margin-top: 15px;
+}
+.create h3 {
+    font-size: 26px;
+    color: white;
+    padding-top: 25px;
+}
+.create p {
+   color: #8D94A5;
+   line-height: 30px;
+}
