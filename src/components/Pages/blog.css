@@ -1,0 +1,28 @@
+.ring img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.ring h6 {
+    color: #FC0254;
+    font-size: 15px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-left: 100px;
+}
+.ring p {
+    color: #959BAB;
+    margin-left: 100px;
+   margin-bottom: 50px;
+    font-size: 16px;
+}
+.ring h2 {
+    color: #0A183D;
+    font-size: 30px;
+    margin-left: 100px;
+}
+em {
+    color: #C5CAD2;
+    margin-left: 100px;
+}

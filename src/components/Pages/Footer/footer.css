@@ -1,0 +1,47 @@
+footer {
+    background-color: #0A183D;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 80px; */
+    padding: 100px;
+
+}
+.myimg img {
+    height: 20px;
+    cursor: pointer;
+}
+.myimg {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+.sic h6 {
+    font-size: 35px;
+    color: white;
+}
+.sic {
+    display: flex;
+    gap: 20px;
+}
+.music1 {
+    margin-left: -10px;
+    margin-top: 15px;
+    color: white;
+}
+.us p {
+    font-size: 15px;
+    font-weight: 500;
+    color: #676673;
+    padding-top: 15px;
+    line-height: 10px;
+    padding-bottom: 10px;
+}
+.us h5 {
+    font-size: 20px;
+    color: white;
+    padding-bottom: 20px;
+}
+small {
+    color: #676673;
+    font-weight: 500;
+}

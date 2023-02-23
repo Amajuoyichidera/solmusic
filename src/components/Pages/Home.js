@@ -4,6 +4,8 @@ import Unlimited from "./Unlimited/Unlimited";
 import How from "./How/How";
 import Concept from "./Concept/Concept";
 import Subscription from "./Subscription/Subscription";
+import Why from "./why/Why";
+import Footer from "./Footer/Footer";
 
 export const Home = () => {
   return (
@@ -13,6 +15,8 @@ export const Home = () => {
       <How />
       <Concept />
       <Subscription />
+      <Why />
+      <Footer />
     </div>
   );
 };

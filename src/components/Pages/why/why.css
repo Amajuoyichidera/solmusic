@@ -1,0 +1,40 @@
+.why {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 70px;
+}
+.prem {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    gap: 100px;
+}
+.prem h3 {
+    font-size: 60px;
+    font-weight: 650;
+    color: #0A183D;
+    padding-top: 10px;
+}
+.prem p {
+    color: #959BAB;
+}
+.add {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 50px;
+}
+.inter img {
+    border-radius: 50%;
+}
+.inter h5 {
+    color: #0A183D;
+    font-size: 25px;
+    padding-top: 20px;
+    text-align: center;
+}
+.inter p {
+    color: #959BAB;
+    text-align: center;
+    padding-top: 10px;
+}

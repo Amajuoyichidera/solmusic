@@ -1,0 +1,65 @@
+.map {
+    display: flex;
+}
+.map p {
+    color: #959BAB;
+}
+.map h1 {
+    color: #0A183D;
+    font-size: 50px;
+}
+.map img {
+    height: auto;
+    width: 60%;
+}
+form {
+    padding: 80px;
+}
+.road {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.your {
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+.your input {
+    background-color: #F5F6FA;
+    padding: 20px;
+    padding-right: 40px;
+    padding-left: 30px;
+    width: 200px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+}
+.subj input {
+    background-color: #F5F6FA;
+    padding: 20px;
+    width: 530px;
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+.mess textarea {
+    background-color: #F5F6FA;
+    padding: 20px;
+    width: 530px;
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    padding-bottom: 100px;
+}
+.map button {
+    padding: 22px;
+    width: 180px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    background-color: #FC0254;
+    color: white;
+}
