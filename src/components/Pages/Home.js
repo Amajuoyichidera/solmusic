@@ -7,16 +7,19 @@ import Subscription from "./Subscription/Subscription";
 import Why from "./why/Why";
 import Footer from "./Footer/Footer";
 
+
 export const Home = () => {
   return (
     <div>
-      <Listen />
-      <Unlimited />
+      <Listen />  
+    <Unlimited />
+     
       <How />
       <Concept />
       <Subscription />
       <Why />
       <Footer />
+      
     </div>
   );
 };

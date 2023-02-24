@@ -2,11 +2,13 @@ import React from "react";
 import map from '../assets/map.jpg'
 import Footer from "./Footer/Footer";
 import '../Pages/contact.css'
+import { Fade } from "react-awesome-reveal";
 
 export const Contact = () => {
   return (
     <section>
-     <section className="map">
+      <Fade delay={400}>
+      <section className="map">
       <img src={map} alt={map} />
       <form>
         <h1>GET IN TOUCH</h1>
@@ -33,6 +35,9 @@ export const Contact = () => {
 
      </section>
 
+
+      </Fade>
+    
      <Footer />
     </section>
   );

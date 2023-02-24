@@ -1,4 +1,5 @@
 import React from 'react'
+import { Slide } from 'react-awesome-reveal'
 import Band from '../Listen/hero-bg.png'
 import './listen.css'
 
@@ -6,6 +7,7 @@ const Listen = () => {
   return (
     <section>
         <section className='sec1'>
+            <Slide>
             <section className='one'>
                 <h1> <span>Listen</span> to <br /> new music.</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed <br /> do eiusmod tempor incididunt ut labore et dolore magna <br /> aliqua. Quis ipsum suspendisse ultrices gravida.</p>
@@ -17,7 +19,9 @@ const Listen = () => {
                 <figure>
                     <img src={Band} alt={Band} />
                 </figure>
-        </section>
+            </Slide>
+            
+        </section>       
     </section>
   )
 }

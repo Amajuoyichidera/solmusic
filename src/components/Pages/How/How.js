@@ -3,6 +3,7 @@ import '../../Pages/How/how.css'
 import Brain from '../../assets/brain.png'
 import Pointer from '../../assets/pointer.png'
 import Phone from '../../assets/smartphone.png'
+import { Slide } from "react-awesome-reveal";
 
 
 const How = () => {
@@ -10,6 +11,7 @@ const How = () => {
     <section className='how'>
         <h1>How it works</h1>
         
+        <Slide>
         <section className='create'>
             <section>
                 <figure>
@@ -39,6 +41,9 @@ const How = () => {
             </section>
 
         </section>
+
+        </Slide>
+        
     </section>
   )
 }

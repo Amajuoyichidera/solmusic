@@ -4,10 +4,12 @@ import insta from '../../assets/insta.png'
 import linked from '../../assets/linked.png'
 import twi from '../../assets/twi.png'
 import face from '../../assets/face.png'
+import { Slide } from "react-awesome-reveal";
 
 const Footer = () => {
   return (
     <footer>
+        <Slide>
         <section>
             <section className='sic'>
             <h6><span>SOL</span>MUSIC</h6>
@@ -45,6 +47,7 @@ const Footer = () => {
             <p>Press</p>
             <p>Contact</p>
         </section>
+        </Slide>
     </footer>
   )
 }

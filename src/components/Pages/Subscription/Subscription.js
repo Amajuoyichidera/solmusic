@@ -1,11 +1,13 @@
 import React from 'react'
 import Check from '../../assets/check-icon.png'
 import '../../Pages/Subscription/subscription.css'
+import { Slide } from "react-awesome-reveal";
 
 const Subscription = () => {
   return (
     <section className='subscrip'>
-        <section>
+      <Slide>
+      <section>
             <h3>Subscription <br /> from $15/month</h3>
             <h5>Start a free trial now</h5>
             <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore <br /> et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus <br /> commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum <br /> dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br /> incididunt ut labore et dolore magna aliqua.</p>
@@ -38,6 +40,8 @@ const Subscription = () => {
               <h6>Shuffle play</h6>
             </section>
         </section>
+      </Slide>
+       
 
     </section>
   )

@@ -10,7 +10,8 @@
 }
 .map img {
     height: auto;
-    width: 60%;
+    width: 610px;
+    object-fit: cover;
 }
 form {
     padding: 80px;
@@ -63,3 +64,38 @@ form {
     background-color: #FC0254;
     color: white;
 }
+
+
+button {
+    border: none;
+    text-align: center;    
+    cursor: pointer;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+    transition: all 0.5s;
+  }
+  
+  button{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  button:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;  
+    top: 14px;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  button:hover{
+    padding-right: 24px;
+    padding-left:8px;
+  }
+  
+  button:hover:after {
+    opacity: 1;
+    right: 10px;
+  }

@@ -4,10 +4,12 @@ import live from '../../assets/live.jpg'
 import dj from '../../assets/dj.jpg'
 import guitar from '../../assets/guitar.jpg'
 import '../../Pages/Concept/concept.css'
+import { Fade } from "react-awesome-reveal";
 
 const Concept = () => {
   return (
    <section className='concept'>
+    <Fade delay={400}>
     <section className='our'>
         <h3>Our Concept & <br /> artists</h3>
         <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore <br /> et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus <br /> commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum <br /> dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br /> incididunt ut labore et dolore magna aliqua.</p>
@@ -35,6 +37,9 @@ const Concept = () => {
         </section>     
         
     </section>
+
+    </Fade>
+   
 
    </section>
   )
