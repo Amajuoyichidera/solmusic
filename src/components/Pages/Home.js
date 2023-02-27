@@ -12,14 +12,12 @@ export const Home = () => {
   return (
     <div>
       <Listen />  
-    <Unlimited />
-     
+      <Unlimited />
       <How />
       <Concept />
       <Subscription />
       <Why />
       <Footer />
-      
     </div>
   );
 };
